@@ -35,7 +35,7 @@ const start = function(){
     resetWordBoxes();
     theList.innerHTML = '';
     listCtnr.style.opacity = 0;
-    btnList.textContent = "Show List";
+    btnList.textContent = "Show The List";
     listHidden = true;
     combos = [];
 
@@ -94,10 +94,10 @@ btnKeep.addEventListener('click', function() {
 btnList.addEventListener('click', function() {
     if (listHidden) {
         listCtnr.style.opacity = 1;
-        btnList.textContent = "Hide List";
+        btnList.textContent = "Hide The List";
     } else {
         listCtnr.style.opacity = 0;
-        btnList.textContent = "Show List";
+        btnList.textContent = "Show The List";
     }
     listHidden = !listHidden;
 })
